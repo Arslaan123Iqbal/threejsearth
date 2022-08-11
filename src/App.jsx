@@ -12,16 +12,16 @@ background: #03030b;
 
 function App() {
   return (
-    <div style={{background:"#03030b", width: "fit-content"}}>
-   <h1 style={{color:"white"}}>Hwll</h1>
+ <CanvasContainer>
+
     <Canvas>
       <Suspense fallback={null}>
           <Earth/>
       </Suspense>
     </Canvas>
-<h1>Hllo</h1>
+    </CanvasContainer>
   
-  </div>);
+);
 }
 
 export default App;
